@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export default async function handler(req, res) {
   const apiKey = process.env.API_KEY;
-  const apiUrl = 'https://external.transitapp.com/v3/public/stop_departures?global_stop_id=RITECHNY:548'; // Hardcoded API endpoint
+  const apiUrl = 'https://external.transitapp.com/v3/public/stop_departures?global_stop_id=RITECHNY:619'; // Hardcoded API endpoint
 
   try {
     const response = await axios.get(apiUrl, {
